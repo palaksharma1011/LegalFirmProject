@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
         img.setAttribute("src","animation/endImg.png");
         body.classList.add("addAn");
           body.addEventListener("animationend",function(){
-             window.location.href="index1.html";
+             window.location.href="index.html";
           })
   
      }, 1000);
