@@ -1,0 +1,150 @@
+body{
+
+    margin: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+}
+img{
+    position: absolute;
+    height: 25em;
+    width:23em;
+
+    margin: auto;
+    animation:fadeIn 0.5s ease-out;
+    margin-left: 23%;
+
+}
+
+.img1{
+
+    position: absolute;
+
+    top: 40%;
+        height: 11em;
+        width:23em;
+    
+        margin: auto;
+        margin-left: 23%;
+        animation: moveUpDown 1s ease-in-out infinite, fadeIn 0.5s ease-out;
+    
+}
+
+
+@media  (max-width:400px){
+    img{
+      
+      height:50vh;
+        width:80vw;
+        margin-top:40%;
+        margin-left: 0em;
+
+    }
+    .img1{
+
+        position: absolute;
+    
+        top: 40%;
+            height: 7.5em;
+            width:80vw;
+            margin-left: 0em;
+ 
+    }
+}      
+     
+@media  (min-width:400px) and (max-width:600px){
+  img{
+      height: 9em;
+      width:9em;
+      margin-top: 30vh;
+
+  }
+  .img1{
+
+      position: absolute;
+  
+      top: 40%;
+          height: 3.5em;
+          width:9em;
+
+  }
+}
+@media (min-width:468px) and (max-width:760px){
+    img{
+        height: 10em;
+        width:10em;
+        /* margin-top:45%; */
+
+    }
+    .img1{
+
+        position: absolute;
+    
+        top: 45%;
+            height: 4.5em;
+            width:10em;
+
+ 
+    }
+}
+@media (min-width:760px) and (max-width:900px){
+    img{
+
+        margin-top:50%;
+        width:50vw;
+
+    }
+    .img1{
+
+      position: absolute;
+  
+      top: 58%;
+          height: 7.5em;
+          width:50vw;
+
+  }
+}
+@media (min-width:900px) and (max-width:1300px){
+  img{
+
+      margin-top:2em;
+      height: 60vh;
+      width:50vw;
+
+  }
+  .img1{
+
+    position: absolute;
+
+    top: 40%;
+        height: 9.5em;
+        width:50vw;
+
+}
+}
+
+
+
+  /* Keyframes for up-and-down motion */
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform:translateY(-15%);
+    }
+    50% {
+      transform: translateY(15%);
+    }
+  }
+
+  /* Keyframes for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.addAn{
+    animation: fadeIn 1s linear;
+}
