@@ -31,6 +31,22 @@ const targetDiv = document.querySelector("#side-nav");
     // Run on page load
     disableAnimations();
 
+    let cards1=document.querySelectorAll(".card1");
+    for(let card of cards1){
+      card.addEventListener("mouseover",cardVisiblityAdd);
+      card.addEventListener("mouseout",cardVisiblityRemove);
+    }
+    for(let card of cards1){
+      card.addEventListener("touchmove",cardVisiblityAdd);
+      card.addEventListener("touchmove",cardVisiblityRemove);
+    }
+    function cardVisiblityAdd(){
+      this.style.visibility="visible";
+    }
+    function cardVisiblityRemove(){
+      this.style.visibility="hidden";
+    }
+    
 
 
 

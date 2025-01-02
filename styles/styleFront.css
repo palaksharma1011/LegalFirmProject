@@ -1,0 +1,64 @@
+#header-container{
+    position: fixed;
+    top:0px;
+
+    display:flex;
+    flex-wrap:nowrap;
+    gap:2em;
+    font-size: 1em;
+    color:white;
+    width: 99vw;
+    height: 10vh;
+    justify-content: end;
+    padding: 0.5em;
+    padding-top: 1em;
+    background-color: rgba(0, 0, 0, 0.566);
+    z-index: 1111;
+
+}
+#logo{
+    margin-right: auto;
+}
+#home{
+    border:1px solid peru;
+}
+#header-container a{
+    color:white;
+    text-decoration-line: none;
+}
+#header-container i{
+    padding-right: 1em;
+    font-size: larger;
+}
+.headerbtn {
+    height:5vh ;
+transition: all 0.5s 0s ease-in-out;
+    &:hover{
+        background-color: peru;
+        border-radius: 0.5em;
+
+        padding: 0.3em;
+    
+    }
+}
+#front-container{
+    position: relative;
+    margin-top: 8em;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:2em;
+
+}
+#front-text{
+    padding-left: 2em;
+    align-self:center;
+}
+#front-img{
+    height:70vh;
+    width:50vw;
+}
+#downarrow{
+    position: relative;
+    color:white;
+    font-size: 50px;
+}

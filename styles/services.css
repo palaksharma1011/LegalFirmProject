@@ -1,21 +1,18 @@
 body {
     height: 4000px;
     /* background: linear-gradient(141deg,cornsilk 50%, white 100%); */
-    background-color: rgb(243, 243, 250);
+    background-color: lightgray;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     font-size: 12px;
-
-
   }
   html{
-
     /* width: 300px;
     height: 100px; */
     overflow-y: scroll;
-    scrollbar-color: black lavender;
+    scrollbar-color: black gray;
 
 }
 #homebtn{
@@ -36,20 +33,45 @@ body {
   }
 
   .container {
+    
     padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5em;
+    gap: 1em;
+  }
+
+  .card1{
+    visibility: hidden;
+    background-color: white;
+    padding: 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    gap:5em;
+    img{
+      height: 30vh;
+      width:20vw;
+    }
+  }
+
+  .card1 h3{
+    padding: 2em;
+    padding-left: 10em;
+    width:30vw;
+    height: 10vh;
+    visibility: visible;
+    background-color: black;
+    color:white;
   }
   .card {
-
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 10;
     background-color: #fff;
-    border: 3px solid lavender;
     padding: 3em;
-    width: 25em;
     padding-bottom: 0px;
-    box-shadow: 0 0 30px rgb(221, 221, 255);
+    box-shadow: 0 0 30px gray;
+    border-radius: 1em;
     transition: background-color 1s ease-out;
  
     &:hover{
@@ -74,8 +96,8 @@ body {
   
 .card img{
 
-    height:20em;
-    width:25em;
+    height:10em;
+    width:15em;
 }
 
 #footer{
@@ -112,13 +134,13 @@ body {
     box-shadow: 0 0 30px lavender;
     transition: all 0.5s ease-in;
     margin-top: 1em;
-    width:25em;
+    width:20vw;
  
     &:hover{
       background-color: white;
-        border: 3px solid purple;
-        color:purple;
-        box-shadow: 2px 2px 50pc purple;
+        border: 3px solid gray;
+        color:gray;
+        box-shadow: 2px 2px 50pc gray;
     }
 
     
