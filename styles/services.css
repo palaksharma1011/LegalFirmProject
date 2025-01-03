@@ -73,6 +73,11 @@ border: 2px solid transparent;
   transform: rotateY(0deg);
   width:fit-content;
   gap: 1em;
+  z-index: 0;
+}
+form{
+  
+  z-index: 1000;
 }
 
 
@@ -133,6 +138,7 @@ border: 2px solid transparent;
   transform:translateY(0);
   opacity: 1;
 }
+
 
   @media (max-width:600px) {
     img{
