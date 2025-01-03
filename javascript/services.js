@@ -19,18 +19,6 @@ let observer=new IntersectionObserver((entries)=>{
 let hiddenElements=document.querySelectorAll(".card1");
 hiddenElements.forEach((el)=>observer.observe(el));
 
-// let observer2=new IntersectionObserver((entries)=>{
-//   entries.forEach((entry)=>{
-//     if(entry.isIntersecting){
-//       entry.target.classList.add("h1show");
-
-//     }else{
-//       entry.target.classList.remove("h1show");
-//     }
-//   });
-// });
-// let hiddenElements2=document.querySelectorAll(".h1hidden");
-// hiddenElements2.forEach((el)=>observer2.observe(el));
 
 let observer3=new IntersectionObserver((entries)=>{
   entries.forEach((entry)=>{
