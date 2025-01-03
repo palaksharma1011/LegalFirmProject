@@ -1,0 +1,114 @@
+
+@media (max-width:700px){
+    .hidden2{
+        transition: none;
+    }
+    #header-container{
+        background-color: transparent;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height:fit-content;
+        gap: 0px;
+    }
+    .headerbtn{
+        visibility: hidden;
+        width:80vw;
+        padding: 2em;
+        padding-left: 1em;
+        background-color: rgba(0, 0, 0,0.8);
+
+
+    }
+    #logo{
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+
+    .bar{
+font-size: 10px;
+        padding: 2em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        width:8vh;
+        border-radius: 50%;
+        background-color: saddlebrown;
+        visibility: visible;
+    }
+    .xmark{
+        visibility: hidden;
+        background-color: red;
+    }
+
+    #front-container{
+        margin-top: 8em;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    #front-img{
+        width:95vw;
+        height:40vh;
+        padding-left: 5vw;
+
+    }
+    #about{
+        margin-top: 2em;
+        padding: 1em;
+        padding-top:3em ;
+        padding-bottom:3em ;
+    }
+    #container-msg{
+        flex-wrap: wrap;
+        width:80vw;
+    }
+    #name{
+        width: 80vw;
+    }
+
+
+    .carousel-inner{
+        justify-self: center;
+        height: 70vh;
+        width:90vw;
+        h5{
+            background-color: black;
+        }
+    }
+    #expertise img{
+        width:30vw;
+        height:70vh;
+    }
+    #actions{
+        flex-wrap: wrap;
+        height: 50vh;
+        margin: auto;
+        margin-top: 2em;
+
+    }
+    #disclaimer{
+        font-size: 3vw;
+    }
+}
+@media (min-width:700px) and (max-width:1110px) {
+    .carousel-inner{
+        justify-self: center;
+        height: 70vh;
+        width:90vw;
+        h5{
+            background-color: black;
+        }
+    }
+    #expertise img{
+        width:30vw;
+        height:70vh;
+    }
+    #actions{
+        margin: auto;
+
+    }
+    #disclaimer{
+        font-size: 3vw;
+    }
+
+
+    
+}

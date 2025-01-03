@@ -4,49 +4,43 @@ homebtn.addEventListener("click",function(){
     window.location.href="index.html";
 })
 
-const targetDiv = document.querySelector("#side-nav");
-    const offsetTop = targetDiv.offsetTop;
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= offsetTop) {
-        targetDiv.style.position = 'fixed';
-        targetDiv.style.top = '2em';
-        targetDiv.classList.add("enter");
-      }
-      
-      else {
-        targetDiv.style.position = 'static';
-        targetDiv.classList.remove("enter");
-
-      }
-    });
 
 
-    function disableAnimations() {
-      if (window.innerWidth <= 1000) {
-        targetDiv.style.animation="none";
-      }
+let observer=new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+      console.log("observing")
+  if(entry.isIntersecting){
+      entry.target.classList.add("card1show");
+  }else{
+      entry.target.classList.remove("card1show");
+  }
+});
+});
+let hiddenElements=document.querySelectorAll(".card1");
+hiddenElements.forEach((el)=>observer.observe(el));
+
+// let observer2=new IntersectionObserver((entries)=>{
+//   entries.forEach((entry)=>{
+//     if(entry.isIntersecting){
+//       entry.target.classList.add("h1show");
+
+//     }else{
+//       entry.target.classList.remove("h1show");
+//     }
+//   });
+// });
+// let hiddenElements2=document.querySelectorAll(".h1hidden");
+// hiddenElements2.forEach((el)=>observer2.observe(el));
+
+let observer3=new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add("card2show");
+
+    }else{
+      entry.target.classList.remove("card2show");
     }
-    
-    // Run on page load
-    disableAnimations();
-
-    let cards1=document.querySelectorAll(".card1");
-    for(let card of cards1){
-      card.addEventListener("mouseover",cardVisiblityAdd);
-      card.addEventListener("mouseout",cardVisiblityRemove);
-    }
-    for(let card of cards1){
-      card.addEventListener("touchmove",cardVisiblityAdd);
-      card.addEventListener("touchmove",cardVisiblityRemove);
-    }
-    function cardVisiblityAdd(){
-      this.style.visibility="visible";
-    }
-    function cardVisiblityRemove(){
-      this.style.visibility="hidden";
-    }
-    
-
-
-
+  });
+});
+let hiddenElements3=document.querySelectorAll(".card2hidden");
+hiddenElements3.forEach((el)=>observer3.observe(el));

@@ -4,26 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AREAS OF SPECIALIZATION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="styles/services.css" rel="Stylesheet">
     <link rel="icon" type="image/png" href="assets/image.png">
+    <script  defer src="javascript/services.js"></script>
 </head>
 <body>
     <i type="button" id="homebtn" class="fa-solid fa-house fa-2xl" ></i>
   <header>
-    <h1>Expertise in Criminal Law and Justice Under Indian Penal Code</h1>
+    <h1 class="h1hidden">Expertise in Criminal Law and Justice Under Indian Penal Code</h1>
   </header>
-  <!-- <div id="search-container">
-    <input  style="background-color: rgba(0, 0, 0, 0.8);padding: 3%; 
-    color:white;border-radius:7.5em; width:70% "
-    
-    id="search-box" type="text" placeholder="What you are looking for?">
- <span><button id="search-btn" style="background-color:cornsilk; padding:3%; border-color:transparent;">SEARCH</button></span>
-</div> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Search our Expertise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown menu
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#Violent-Crimes">Violent Crimes</a></li>
+              <li><a class="dropdown-item" href="#White-Collar-Crimes">White Collar Crimes</a></li>
+              <li><a class="dropdown-item" href="#Cyber-Crimes">Cyber Crimes</a></li>
+              
+              <li><a class="dropdown-item" href="#Drug-Offensess">Drug Offenses</a></li>
+              <li><a class="dropdown-item" href="#Domestic-Violence">Domestic Violence</a></li>
+              <li><a class="dropdown-item" href="#Property-and-Real-Estate-Law">Property and Real Estate Law</a></li>
 
-  <section id="first-section" class="container">
+              <li><a class="dropdown-item" href="#Corporate-and-Business-Law">Corporate and Business Law</a></li>
+              <li><a class="dropdown-item" href="#Family-Law">Family Law</a></li>
+              <li><a class="dropdown-item" href="#Labour-and-Employment-Law">Labour and Employment Law</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="container1">
 
-    <div class="card1">
+    <div class="card1" id="Violent-Crimes">
       <h3>Violent Crimes</h3>
       <img src="assets/c1.webp">
       <p>Handling cases involving physical harm or threat to individuals.</p>
@@ -34,9 +58,34 @@
         <li><strong>Section 325:</strong> Punishment for Grievous Hurt</li>
         <li><strong>Section 326:</strong> Voluntarily Causing Grievous Hurt by Dangerous Weapons</li>
       </ul>
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          CONSULT NOW
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                I agree the authentication of Information.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Consultation</button>
+        </form>
+      </div>
     </div>
 
-    <div class="card1">
+    <div class="card1" id="White-Collar-Crimes">
 
       <h3>White-Collar Crimes</h3>
       <img src="assets/c2.webp">
@@ -47,10 +96,33 @@
         <li><strong>Section 468:</strong> Forgery for Purpose of Cheating</li>
         <li><strong>Section 471:</strong> Using Forged Document as Genuine</li>
       </ul>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          CONSULT NOW
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                I agree the authentication of Information.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Consultation</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Card 4 -->
-    <div class="card1">
+    <div class="card1" id="Cyber-Crimes">
       <h3>Cyber Crimes</h3>
       <img src="assets/c3.webp">
 
@@ -61,10 +133,33 @@
         <li><strong>Section 378 IPC:</strong> Theft, including Cyber Theft</li>
         <li><strong>Section 503:</strong> Criminal Intimidation via Digital Means</li>
       </ul>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          CONSULT NOW
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                I agree the authentication of Information.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Consultation</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Card 5 -->
-    <div class="card1">
+    <div class="card1" id="Drug-Offenses">
       <h3>Drug Offenses</h3>
       <img src="assets/c4.webp">
       <p>Handling cases related to possession, trafficking, and consumption of drugs.</p>
@@ -74,10 +169,33 @@
         <li><strong>Section 21 NDPS:</strong> Punishment for Possession of Manufactured Drugs</li>
         <li><strong>Section 22 NDPS:</strong> Punishment for Possession of Psychotropic Substances</li>
       </ul>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          CONSULT NOW
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                I agree the authentication of Information.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Consultation</button>
+        </form>
+      </div>
     </div>
 
-    <!-- Card 6 -->
-    <div class="card1">
+    <div class="card1" id="Domestic-Violence">
       <h3>Domestic Violence</h3>
       <img src="assets/c5.webp">
       <p>Specialized in handling family disputes and protection cases.</p>
@@ -87,8 +205,34 @@
         <li><strong>Section 125:</strong> Maintenance for Wife, Children, and Parents</li>
         <li><strong>Section 304B:</strong> Dowry Death</li>
       </ul>
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+          CONSULT NOW
+        </button>
+        <form class="dropdown-menu p-4">
+          <div class="mb-3">
+            <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+              <label class="form-check-label" for="dropdownCheck2">
+                I agree the authentication of Information.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Book Consultation</button>
+        </form>
+      </div>
     </div>
-    <div class="card1"1>
+
+
+    <div class="card1" id="Property-and-Real-Estate-Law">
         <h3>Property and Real Estate Law</h3>
         <img src="assets/c6.webp">
         <p>Handling cases related to ownership, tenancy, and property disputes.</p>
@@ -99,8 +243,35 @@
           <li><strong>Section 420:</strong> Cheating in property matters</li>
           <li><strong>RERA Act:</strong> Real Estate Regulation and Development Act</li>
         </ul>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+            CONSULT NOW
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                <label class="form-check-label" for="dropdownCheck2">
+                  I agree the authentication of Information.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Book Consultation</button>
+          </form>
+        </div>
+
       </div>
-      <div class="card1">
+
+
+      <div class="card1" id="Corporate-and-Business-Law">
         <h3>Corporate and Business Law</h3>
         <img src="assets/c7.webp">
         <p>Expertise in business disputes, contracts, and corporate regulations.</p>
@@ -111,8 +282,33 @@
           <li><strong>Section 406:</strong> Punishment for Criminal Breach of Trust</li>
           <li><strong>Insolvency Code:</strong> Bankruptcy and debt recovery</li>
         </ul>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+            CONSULT NOW
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                <label class="form-check-label" for="dropdownCheck2">
+                  I agree the authentication of Information.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Book Consultation</button>
+          </form>
+        </div>
       </div>
-      <div class="card1">
+
+      <div class="card1" id="Family-Law">
         <h3>Family Law</h3>
         <img src="assets/c8.webp">
         <p>Expertise in marital disputes, inheritance, and adoption.</p>
@@ -123,9 +319,33 @@
           <li><strong>Indian Succession Act:</strong> Governs inheritance</li>
           <li><strong>Guardians and Wards Act:</strong> Child custody and guardianship</li>
         </ul>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+            CONSULT NOW
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                <label class="form-check-label" for="dropdownCheck2">
+                  I agree the authentication of Information.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Book Consultation</button>
+          </form>
+        </div>
       </div>
 
-      <div class="card1">
+      <div class="card1" id="Labour-and-Employment-Law">
         <h3>Labour and Employment Law</h3>
         <img src="assets/c9.webp">
         <p>Expertise in employee rights, wages, and workplace disputes.</p>
@@ -136,12 +356,36 @@
           <li><strong>EPF Act:</strong> Employee Provident Fund regulations</li>
           <li><strong>Section 504:</strong> Intentional Insult to Provoke Breach of Peace</li>
         </ul>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+            CONSULT NOW
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Tell about your concern in a precise way:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                <label class="form-check-label" for="dropdownCheck2">
+                  I agree the authentication of Information.
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Book Consultation</button>
+          </form>
+        </div>
       </div>
     </section>
     <br>
       <hr>
 
-      <h1 id="services">Our Services</h1>
+      <h1 class="h1hidden">Our Services</h1>
 
       <hr>
 
@@ -149,55 +393,59 @@
 
 
 <!-- navigation in second section -->
- <aside>
-  <div id="side-nav" >
-    <div class="navTab">
-      <a href="#Consumer-Protection-Law">Consumer Protection Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Taxation-Law">Taxation Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Constitutional Law">Constitutional Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Environmental-Law">Environmental Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Intellectual-Property-Law">Intellectual Property Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Sexual-Offenses">Sexual Offenses</a>
-    </div>
-    <div class="navTab">
-      <a href="#Cyber-Law">Cyber Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Arbitration-and-Dispute-Resolution">Arbitration and Dispute Resolution</a>
-    </div>
-    <div class="navTab">
-      <a href="#Banking-and-Finance-Law">Banking and Finance Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Education-Law">Education Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#International-Law">International Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Administrative-Law">Administrative Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Maritime-Law">Maritime Law</a>
-    </div>
-    <div class="navTab">
-      <a href="#Tax-Evasion-and-White-Collar-Crime">Tax Evasion and White-Collar Crime</a>
+
+<div id="section2">
+  <div class="part1">
+    <div id="nav-container" >
+        <div class="navtab">
+          <a href="#Consumer-Protection-Law">Consumer Protection Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Taxation-Law">Taxation Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Constitutional Law">Constitutional Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Environmental-Law">Environmental Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Intellectual-Property-Law">Intellectual Property Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Sexual-Offenses">Sexual Offenses</a>
+        </div>
+        <div class="navtab">
+          <a href="#Cyber-Law">Cyber Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Arbitration-and-Dispute-Resolution">Arbitration and Dispute Resolution</a>
+        </div>
+        <div class="navtab">
+          <a href="#Banking-and-Finance-Law">Banking and Finance Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Education-Law">Education Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#International-Law">International Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Administrative-Law">Administrative Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Maritime-Law">Maritime Law</a>
+        </div>
+        <div class="navtab">
+          <a href="#Tax-Evasion-and-White-Collar-Crime">Tax Evasion and White-Collar Crime</a>
+        </div>
     </div>
   </div>
- </aside>
 
- <section id="second-section" class="container">
-      <div id="Consumer-Protection-Law" class="card">
+
+
+  <div class="part2">
+      <div id="Consumer-Protection-Law" class="card card2hidden">
         <h3 >Consumer Protection Law</h3>
         <p>Handling cases of consumer disputes, fraud, and defective goods.</p>
         <ul>
@@ -208,7 +456,7 @@
           <li><strong>Section 505:</strong> Statements Conducing to Public Mischief</li>
         </ul>
       </div>
-      <div id="Taxation-Law" class="card">
+      <div id="Taxation-Law" class="card card2hidden">
         <h3>Taxation Law</h3>
         <p>Specialized in tax compliance, disputes, and legal remedies.</p>
         <ul>
@@ -219,7 +467,7 @@
           <li><strong>Section 278:</strong> Abetment of False Tax Return</li>
         </ul>
       </div>
-      <div id="Constitutional-Law" class="card">
+      <div id="Constitutional-Law" class="card card2hidden">
         <h3>Constitutional Law</h3>
         <p>Handling fundamental rights, constitutional challenges, and governance.</p>
         <ul>
@@ -230,7 +478,7 @@
           <li><strong>Public Interest Litigations:</strong> Legal provisions for societal justice</li>
         </ul>
       </div>
-      <div class="card" id="Environmental-Law">
+      <div class="card card2hidden" id="Environmental-Law">
         <h3>Environmental Law</h3>
         <p>Specialized in protecting natural resources and enforcing regulations.</p>
         <ul>
@@ -242,7 +490,7 @@
         </ul>
       </div>
 
-      <div class="card" id="Intellectual-Property-Law">
+      <div class="card card2hidden" id="Intellectual-Property-Law">
         <h3>Intellectual Property Law</h3>
         <p>Specialized in protecting intellectual creations such as patents, trademarks, and copyrights.</p>
         <ul>
@@ -254,7 +502,7 @@
         </ul>
       </div>
 
-    <div class="card" id="Sexual-Offenses">
+    <div class="card card2hidden" id="Sexual-Offenses">
         <h3>Sexual Offenses</h3>
         <p>Expertise in cases of sexual harassment and assault.</p>
         <ul>
@@ -265,7 +513,7 @@
         </ul>
       </div>
   
-      <div class="card" id="Cyber-Law">
+      <div class="card card2hidden" id="Cyber-Law">
         <h3>Cyber Law</h3>
         <p>Addressing online fraud, hacking, and data protection cases.</p>
         <ul>
@@ -276,7 +524,7 @@
           <li><strong>Section 43:</strong> Unauthorized access to computer systems</li>
         </ul>
       </div>
-      <div class="card" id="Arbitration-and-Dispute-Resolution">
+      <div class="card card2hidden" id="Arbitration-and-Dispute-Resolution">
         <h3>Arbitration and Dispute Resolution</h3>
         <p>Expertise in out-of-court settlements and resolving disputes amicably.</p>
         <ul>
@@ -286,7 +534,7 @@
           <li><strong>Negotiable Instruments Act:</strong> Resolving disputes on dishonored cheques</li>
         </ul>
       </div>
-      <div class="card" id="Banking-and-Finance-Law">
+      <div class="card card2hidden" id="Banking-and-Finance-Law">
         <h3>Banking and Finance Law</h3>
         <p>Specialized in loan disputes, recovery, and financial regulations.</p>
         <ul>
@@ -297,7 +545,7 @@
           <li><strong>Section 138:</strong> Punishment for dishonored cheques</li>
         </ul>
       </div>
-      <div class="card" id="Education-Law">
+      <div class="card card2hidden" id="Education-Law">
         <h3>Education Law</h3>
         <p>Addressing disputes in educational institutions and student rights.</p>
         <ul>
@@ -307,7 +555,7 @@
           <li><strong>Section 23 of RTE Act:</strong> Teacher qualifications and standards</li>
         </ul>
       </div>
-      <div class="card" id="International-Law">
+      <div class="card card2hidden" id="International-Law">
         <h3>International Law</h3>
         <p>Specialized in cases related to treaties, foreign trade, and international disputes.</p>
         <ul>
@@ -317,7 +565,7 @@
           <li><strong>International Arbitration:</strong> Dispute resolution across borders</li>
         </ul>
       </div>
-      <div class="card" id="Administrative Law">
+      <div class="card card2hidden" id="Administrative Law">
         <h3>Administrative Law</h3>
         <p>Dealing with cases involving government agencies and public administration.</p>
         <ul>
@@ -327,7 +575,7 @@
           <li><strong>Public Grievance Redressal:</strong> Mechanism for addressing public complaints</li>
         </ul>
       </div>
-      <div class="card" id="Maritime-Law">
+      <div class="card card2hidden" id="Maritime-Law">
         <h3>Maritime Law</h3>
         <p>Specialized in laws related to maritime trade and ship operations.</p>
         <ul>
@@ -338,7 +586,7 @@
           <li><strong>Marine Insurance Act:</strong> Protection for maritime losses</li>
         </ul>
       </div>
-      <div class="card" id="Tax-Evasion-and-White-Collar-Crime">
+      <div class="card card2hidden" id="Tax-Evasion-and-White-Collar-Crime">
         <h3>Tax Evasion and White-Collar Crime</h3>
         <p>Handling corporate fraud, tax evasion, and insider trading cases.</p>
         <ul>
@@ -349,8 +597,12 @@
           <li><strong>Prevention of Money Laundering Act:</strong> Addresses money laundering</li>
         </ul>
       </div>
+
+  </div>
+</div>
                                                                                                       
-  </section>
-    <script src="javascript/services.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
 </body>
 </html>

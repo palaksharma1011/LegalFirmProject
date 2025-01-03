@@ -1,7 +1,7 @@
 #header-container{
     position: fixed;
     top:0px;
-
+    margin-top: 0px;
     display:flex;
     flex-wrap:nowrap;
     gap:2em;
@@ -12,12 +12,21 @@
     justify-content: end;
     padding: 0.5em;
     padding-top: 1em;
-    background-color: rgba(0, 0, 0, 0.566);
+    background-color: rgba(0, 0, 0);
     z-index: 1111;
 
 }
+
+.bar{
+    visibility: hidden;
+}
+.xmark{
+    visibility: hidden;
+}
 #logo{
     margin-right: auto;
+    background-color: black;
+
 }
 #home{
     border:1px solid peru;
@@ -27,8 +36,8 @@
     text-decoration-line: none;
 }
 #header-container i{
-    padding-right: 1em;
     font-size: larger;
+    padding-right: 0.5em;
 }
 .headerbtn {
     height:5vh ;
@@ -36,7 +45,6 @@ transition: all 0.5s 0s ease-in-out;
     &:hover{
         background-color: peru;
         border-radius: 0.5em;
-
         padding: 0.3em;
     
     }
@@ -62,3 +70,28 @@ transition: all 0.5s 0s ease-in-out;
     color:white;
     font-size: 50px;
 }
+
+
+
+/* animation adding  */
+.hidden{
+    filter:blur(2em);
+    transform: translateX(-100%);
+    opacity:0;
+    transition: all 2s ease-in-out;
+
+}
+
+.hidden2{
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+
+}
+
+.show{
+    filter:blur(0);
+    transform: translate(0);
+    opacity: 1;
+}
+

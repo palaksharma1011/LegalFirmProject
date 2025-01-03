@@ -15,13 +15,12 @@
 
     <link href="styles/style.css" rel="Stylesheet">
     <link href="styles/styleFront.css" rel="Stylesheet">
+    <link href="styles/responsive.css" rel="stylesheet">
+    <script defer src="javascript/animationFront.js"></script>
     
 </head>
 <body>
-    
-        
-  <!-- <div id="disclaimer" class="toast fade show offcanvas offcanvas-start " data-bs-backdrop="static" id="staticBackdrop" aria-labelledby="staticBackdropLabel" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"  tabindex="-1"   role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-body">
+<div id="disclaimer">
     <h1>Disclaimer</h1>
 
     The information on this website is provided for general informational purposes only and should not be considered as legal advice under any circumstances. While we strive to ensure that the content is accurate and up-to-date, it may not always reflect the most current legal developments. Visitors should not act or rely solely on the information provided here without consulting a qualified legal professional for specific advice tailored to their individual needs and circumstances.
@@ -33,107 +32,12 @@ We are not responsible for any actions, decisions, or outcomes based on the info
 All content, including text, images, and logos, available on this website is the intellectual property of Pankaj Sharma and Associates. Unauthorized use, reproduction, or distribution of this content is strictly prohibited and may result in legal consequences. By using this website, you agree to respect our intellectual property rights and abide by applicable laws.
 
 Thank you for visiting our website. If you have any questions or concerns about this disclaimer or the content provided, please feel free to contact us directly.
-    
-      <div class="mt-2 pt-2 border-top">
-        <button type="button" class="btn btn-success btn-sm" data-bs-dismiss="offcanvas" data-bs-dismiss="toast">I agree</button>
-      </div>
-    </div>
-  </div> -->
-
-<!-- <nav>
-  <div class="navbox">
-    <input type="checkbox" id="check">
-    <div class="btn-one">
-      <label for="check">
-        <i id="navIcon" type="button" class="fa-solid fa-bars"></i>
-
-      </label>
-    </div>
-    <div class="sidebar-menu">
-      <div class="btn-two">
-        <label for="check">
-          <i id="close" class="fa-solid fa-xmark"></i>
-        </label>
-      </div>
-      <div class="menu">
-        <ul>
-          <li>
-            <i class="fa-solid fa-house"></i>
-            <a href="#">Home</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-scale-balanced"></i>
-            <a href="services.html">Our Services</a>
- 
-          <li>
-            <i class="fa-solid fa-people-group"></i>
-            <a href="partners.html">The Team</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-calendar-days"></i>
-            <a href="contact.html">Schedule an Appointment</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-circle-question"></i>
-            <a href="contact2.html">Post a query</a>
-          </li>
-
-        </ul>
-      </div>
-      
-    </div>
-  </div>
-</nav> -->
-<!-- <header>
-  <div id="header">
-    <div class="menu">
-        <ul>
-          <li>
-            <i class="fa-solid fa-house"></i>
-            <a href="#">Home</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-scale-balanced"></i>
-            <a href="services.html">Our Services</a>
- 
-          <li>
-            <i class="fa-solid fa-people-group"></i>
-            <a href="partners.html">The Team</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-calendar-days"></i>
-            <a href="contact.html">Schedule an Appointment</a>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-circle-question"></i>
-            <a href="contact2.html">Post a query</a>
-          </li>
-
-        </ul>
-      </div> -->
-
-
-    <!-- <div class="headContent">advpankajsharma7@gmail.com</div>
-    <div class="headContent">9810424413</div>
-    <div class="headContent">8178212855</div>
-    <div class="headContent">CH. no. 79, First floor ,Western Wing , Tis Hazari Courts , Delhi , India</div>
-   -->
-
-
-
-
-
-<!-- </div>
-  </header> -->
-
+<hr>
+    <button id="closebtn">I agree</button>
+</div>
+     
 <header>
-    <div id="header-container">
+    <div id="header-container" class="hidden2">
         <div id="logo"><i class="fa-solid fa-scale-balanced"></i>PANKAJ SHARMA & COMPANY</div>
         <div class="headerbtn" type="button" id="home"><a href="#">Home</a></div>
         <div class="headerbtn" type="button" ><a href="#about">About</a></div>
@@ -141,19 +45,20 @@ Thank you for visiting our website. If you have any questions or concerns about 
         <div class="headerbtn" type="button" ><a href="partners.html">Our Team</a></div>
         <div class="headerbtn" type="button" ><a href="contact.html">Schedule an Appointment</a></div>
         <div class="headerbtn" type="button" ><a href="contact2.html">Post a Query</a></div>
-       
+        <div type="button"  class="bar"><i class="fa-solid fa-bars"></i>open menu</div>
+        <div type="button" class="xmark"><i class="fa-solid fa-xmark"></i>close menu</div>
     </div>
 </header>
-<section id="front-container">
+<section id="front-container" class="hidden">
     <div id="front-text"><h1>PANKAJ SHARMA & COMPANY</h1>
         <h4>Legal professionals with extensive practice at the High Courts and District Courts across Delhi NCR. </h4></div></div>
-    <div id="front-imgholder"><img id="front-img" src="styles/bg-front.png"></div>
+    <div id="front-imgholder"><img class="hidden2" id="front-img" src="styles/bg-front.png"></div>
 </section>
 <div id="downarrow"><i class="fa-solid fa-arrow-down fa-bounce"></i></div>
 
 
     
-            <div id="about" >
+            <div id="about" class="hidden" >
             <div id="about-text">
                 <h1>ABOUT US</h1>
                 <h3>Pankaj Sharma & Company ,we are more than just legal professionals; we are your
@@ -191,7 +96,7 @@ Thank you for visiting our website. If you have any questions or concerns about 
           </section>
 
           <section>
-            <div id="main-msg">
+            <div id="main-msg" class="hidden">
               <div id="container-msg">
                       "At Pankaj Sharma & Associates, our mission is rooted in the principles of justice, integrity, 
                       and dedication. We strive to provide personalized legal solutions while standing firmly 
@@ -205,7 +110,7 @@ Thank you for visiting our website. If you have any questions or concerns about 
 </section>
 
 
-          <section id="expertise">
+          <section id="expertise" class="hidden">
             <h1>Our Expertise</h1>
 
             <div id="carouselExampleCaptions" class="carousel slide">
@@ -291,7 +196,7 @@ Thank you for visiting our website. If you have any questions or concerns about 
               </button>
             </div>
           </section>
-          <section id="progressbars">
+          <section id="progressbars" class="hidden">
             <h1>Cases We Solved In Each Our Expertise Fields till now</h1>
             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
               <div class="progress-bar" style="width: 70%">Violent Crimes</div>
@@ -329,7 +234,7 @@ Thank you for visiting our website. If you have any questions or concerns about 
 
           <section>
 
-            <div id="actions">
+            <div id="actions" class="hidden">
               <h2>Contact<br> Us</h2>
               <div class="actionblock"><button id="contact1btn">Schedule an Appointment</button></div>
               <div class="actionblock"><button id="contact2btn">Post your query</button></div>
