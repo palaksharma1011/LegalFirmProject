@@ -84,7 +84,6 @@ border: 2px solid transparent;
 .part1{
   position: sticky;
   top:10em;
-
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -92,7 +91,6 @@ border: 2px solid transparent;
 
 }
 .navtab{
-  
   font-weight: 900;
   width:fit-content;
   &:hover{
@@ -150,8 +148,35 @@ border: 2px solid transparent;
     #homebtn{
       margin-top: 10%;
     }
+
+
+
+    /* other */
+    .part1{
+      position: relative;
+      top:0px;
+      width: 100vw;
+      z-index: 2;
+      background-color: black;
+      text-align: center;
+    }
+    .navtab{
+      font-weight: 100;
+      width:100vw;  
+    }
     .part1 a{
-      font-size: 15px;
+      font-size: 10px;
     }
     
+    .part2{
+
+      margin-left: 0px;
+      gap: 10em;
+      justify-content: center;
+      z-index: -1;
+    }
+    .card{
+      width:90vw;
+      gap: 1em;
+    }   
   }
