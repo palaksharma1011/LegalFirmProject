@@ -10,7 +10,7 @@ body{
 }
 html{
     overflow-y: scroll;
-    scrollbar-color: white rgb(70, 0, 0);
+    scrollbar-color: white dimgray;
 
 }
 #homebtn{
@@ -79,19 +79,25 @@ img{
 
 }
 
-#footer{
-    width: 100vw;
+#footer {
     font-size: 15px;
-              background-color: grey;
-              color: white;margin-top: 5em;padding:3em;
-    li{
-        list-style: none;
-        
+    line-height: 2em;
+    background: linear-gradient(dimgray 10%, lightgray 100%);
+    color: white;
+    margin-top: 5em;
+    padding: 3em;
+    li {
+      list-style: none;
+      &:hover {
+        text-shadow: 2px 2px 5px black;
+        border:1px solid white;
+        box-shadow: 1px 1px 5px black;
+      }
     }
-    i{
-        padding-right: 2em;
+    i {
+      padding-right: 2em;
     }
-}
+  }
 
 @media (max-width:700px) {
     #container{
