@@ -55,6 +55,7 @@ transition: all 0.5s 0s ease-in-out;
     display: flex;
     flex-wrap: nowrap;
     gap:2em;
+    margin-right: 1em;
 
 }
 #front-text{
@@ -64,6 +65,7 @@ transition: all 0.5s 0s ease-in-out;
 #front-img{
     height:70vh;
     width:50vw;
+
 }
 #downarrow{
     position: relative;
