@@ -5,17 +5,20 @@
         "destination": "/index.html"
       },
       {
-        "source": "/about",
-        "destination": "/about.html"
+        "source": "/services",
+        "destination": "/services.html"
       },
       {
-        "source": "/contact",
+        "source": "/team",
+        "destination": "/partners.html"
+      },
+      {
+        "source": "/scheduleform",
         "destination": "/contact.html"
       },
       {
-        "source": "/services",
-        "destination": "/services.html"
+        "source": "/queryform",
+        "destination": "/contact2.html"
       }
-    ]
-  }
-  
+  ]
+}  
