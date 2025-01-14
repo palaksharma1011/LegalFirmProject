@@ -1,24 +1,4 @@
 {
-    "rewrites": [
-      {
-        "source": "/",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/services",
-        "destination": "/services.html"
-      },
-      {
-        "source": "/team",
-        "destination": "/partners.html"
-      },
-      {
-        "source": "/scheduleform",
-        "destination": "/contact.html"
-      },
-      {
-        "source": "/queryform",
-        "destination": "/contact2.html"
-      }
-  ]
-}  
+    "cleanUrls": true
+  }
+  
