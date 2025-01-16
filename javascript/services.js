@@ -1,10 +1,3 @@
-let homebtn=document.querySelector("#homebtn");
-homebtn.addEventListener("click",function(){
-    console.log("btn clicked");
-    window.location.href="index.html";
-})
-
-
 
 let observer=new IntersectionObserver((entries)=>{
   entries.forEach((entry)=>{

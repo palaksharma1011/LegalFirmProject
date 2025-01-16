@@ -115,16 +115,6 @@ i{
 }
 
 
-#homebtn {
-  position: fixed;
-  top: 0px;
-  margin-top: 5%;
-  margin-left: 3%;
-  color: white;
-  font-size: 50px;
-  text-shadow: 0px 0px 20px black;
-}
-
 #footer {
   font-size: 15px;
   line-height: 2em;
@@ -149,4 +139,10 @@ i{
   body {
     font-size: 1vw;
   }
+}
+@media (max-width:700px){
+  .hidden2{
+      transition: none;
+  }
+
 }

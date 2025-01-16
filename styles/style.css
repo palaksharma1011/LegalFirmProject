@@ -16,6 +16,7 @@ body{
 }
 
 #about{
+    margin-top: 5em;
     background-color:white;
   padding: 10em;
     padding-top:3em ;
@@ -48,7 +49,7 @@ body{
 
     width: 40vw;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 5em;
 
 
 

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Delius&family=Oxygen:wght@300;400;700&family=Rubik+Puddles&display=swap');
+
+    nav ul {
+        font-family: "Delius", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top:0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        padding: 2em;
+        font-size: 20px;
+    }
+
+    nav li {
+
+        list-style: none;
+    }
+
+    nav a {
+        text-shadow: 3px 3px 2px black;
+        border-radius: 1em;
+        text-decoration: none;
+        color: white;
+        padding: 1em;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+    }
+
+    #logo {
+        background-color: white;
+        color: black;
+        padding: 1em;
+    }
+
+    i {
+        padding-right: 0.5em;
+
+    }
+    .display{
+        display: block;
+    }
+
+    .navbtn {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top:0;
+        right:0;
+        padding: 0.5em;
+        background-color: black;
+        text-shadow: 2px 2px 6px white;
+        &:hover{
+            text-shadow: 2px 2px 6px black;
+
+        }
+        &:active{
+            font-size: 49px;
+        }
+
+    }
+
+    @media (max-width:768px) {
+        nav ul {
+            display: block;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            padding: 0.5em;
+        }
+
+        nav a {
+            display: none;
+        }
+        #logo{
+            width:50vw;
+
+        }
+
+    }

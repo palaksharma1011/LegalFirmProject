@@ -13,22 +13,6 @@ html{
     scrollbar-color: white dimgray;
 
 }
-#homebtn{
-    position: fixed;
-    top:0px;
-    margin-top: 5%;
-    margin-left: 3%;
-    color:white;
-    font-size: 50px;
-    text-shadow: 0px 0px 20px black;
-
-}
-#arrowDown{
-    position:absolute;
-    color:white;
-    font-size: 50px;
-    text-shadow: 0px 0px 20px black;
-}
 #mainheading{
     margin: 2em 10em 2em 10em ;
     background-color: white;
@@ -113,4 +97,10 @@ img{
     #mainQuote{
         font-size: 4vw;
     }
+}
+@media (max-width:700px){
+    .hidden2{
+        transition: none;
+    }
+    
 }
