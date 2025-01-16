@@ -3,41 +3,6 @@
     .hidden2{
         transition: none;
     }
-    #header-container{
-        background-color: transparent;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height:fit-content;
-        gap: 0px;
-    }
-    .headerbtn{
-        visibility: hidden;
-        width:80vw;
-        padding: 2em;
-        padding-left: 1em;
-        background-color: rgba(0, 0, 0,0.8);
-
-
-    }
-    #logo{
-        padding: 1em;
-        margin-bottom: 1em;
-    }
-
-    .bar{
-font-size: 10px;
-        padding: 2em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        width:8vh;
-        border-radius: 50%;
-        background-color: saddlebrown;
-        visibility: visible;
-    }
-    .xmark{
-        visibility: hidden;
-        background-color: red;
-    }
 
     #front-container{
         margin-top: 8em;
@@ -103,7 +68,7 @@ font-size: 10px;
     }
 
     #disclaimer{
-        font-size: 3vw;
+        font-size:2vw;
     }
 
 

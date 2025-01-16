@@ -16,7 +16,7 @@ body{
 }
 
 #about{
-    margin-top: 5em;
+    margin-top: 10em;
     background-color:white;
   padding: 10em;
     padding-top:3em ;
@@ -49,7 +49,7 @@ body{
 
     width: 40vw;
     margin: auto;
-    margin-top: 5em;
+    margin-top: 10em;
 
 
 
@@ -62,10 +62,11 @@ body{
 /* expertise start */
 
 #expertise{
-    margin-top:2em;
+    margin-top: 10em;
     
 }
 .carousel-inner{
+    
     justify-self: center;
     height: 80vh;
     width:50vw;
@@ -82,8 +83,7 @@ body{
 }
 
 #expertise img{
-    width:30vw;
-    height:80vh;
+    width:25vw;
 }
 
 /* expertise end */
@@ -93,7 +93,7 @@ body{
 #progressbars{
     background-color: white;
     padding: 1em;
-    margin-top: 2em;
+    margin-top: 10em;
 }
 .progress{
     border: 1.5px solid black;
@@ -130,30 +130,22 @@ body{
 /* actions */
 
 #actions{
-    margin-left: auto;
-    margin-top: 2em;
+    margin: auto;
+    margin-top: 10em;
     width: 50vw;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    text-align: right;
-}
-#actions h2{
-
-    color:white;
-    font-size: 30px;
-    font-weight: 900;
-
+    text-align: center;
 }
 
 #actions a{
+    margin: auto;
     display: block;
-
-    position: absolute;
+    position: relative;
     padding: 1.5em;
-    font-size: 15px;
     border-color: transparent;
     background-color: crimson;
     color:white;
