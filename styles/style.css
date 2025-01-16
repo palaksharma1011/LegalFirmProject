@@ -8,7 +8,7 @@ body{
     padding: 0px;
     background-color: black;
     color:white;
-    transition:all 2s 0s linear;
+    transition:all 0.5s 0s linear;
     font-family: "Slabo 27px", serif;
     font-weight: 400;
     font-style: normal;
@@ -105,8 +105,8 @@ body{
     color:black;
     text-shadow: 1px 1px  white;
     font-weight: 900;
-    transition: all 2s ease-in-out ;
-    transition-delay:1s ;
+    transition: all 0.5s ease-in-out ;
+    transition-delay:0.5s ;
 
 }
 
@@ -129,19 +129,15 @@ body{
 /* actions */
 
 #actions{
+    margin-left: auto;
     margin-top: 2em;
-
     width: 50vw;
-    height:25vh;
     position: relative;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    gap:2em;
-    &:hover{
-        border:2px solid white;
-    }
+    text-align: right;
 }
 #actions h2{
 
@@ -151,9 +147,11 @@ body{
 
 }
 
-.actionblock button{
+#actions a{
+    display: block;
+
+    position: absolute;
     padding: 1.5em;
-    flex-shrink: 2;
     font-size: 15px;
     border-color: transparent;
     background-color: crimson;
