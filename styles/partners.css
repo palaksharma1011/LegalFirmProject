@@ -12,13 +12,16 @@ html {
   scrollbar-color: white dimgray;
 }
 #mainheading {
-  margin: 2em 10em 2em 10em;
-  background-color: white;
-  font-size: 3vw;
-  text-align: center;
-  box-shadow: 5px 5px 10px black;
-  border-radius: 5em;
-  font-weight: 700;
+    margin: auto;
+    margin-bottom: 2em;
+    background-color: transparent;
+    text-align: left;
+    box-shadow: 15px 15px black;
+    font-weight: 700;
+    font-size: 3vw;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 1em;
 }
 #mainQuote {
   font-size: 2vw;
@@ -85,6 +88,7 @@ img {
     flex-wrap: wrap;
   }
   #mainheading {
+
     font-size: 7vw;
   }
 
