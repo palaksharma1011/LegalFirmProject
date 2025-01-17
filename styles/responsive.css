@@ -5,7 +5,6 @@
     }
 
     #front-container{
-        margin-top: 8em;
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }

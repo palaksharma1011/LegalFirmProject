@@ -1,7 +1,6 @@
 
 #front-container{
     position: relative;
-    margin-top: 8em;
     display: flex;
     flex-wrap: nowrap;
     gap:2em;
