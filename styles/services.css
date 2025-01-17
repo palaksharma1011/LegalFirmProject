@@ -16,15 +16,12 @@ body {
 }
 
 h1{
-
-    background: black;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 20px;
     position: relative;
-    margin-top: 2em;
-
-    
+    font-weight: bold;    
+    text-shadow: 2px 5px white;
   }
 
 
@@ -128,8 +125,7 @@ border: 2px solid transparent;
 
   @media (max-width:600px) {
     img{
-      width:50vw;
-      height:20vh;
+      width:90vw;
     }
     .container1{
       margin-left: 0px;

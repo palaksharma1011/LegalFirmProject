@@ -59,7 +59,7 @@ img{
 .box{
   display: flex;
   flex-wrap: nowrap;
-  /* flex-direction: column; */
+  flex-direction: row;
   margin-top: 30em;
 }
 i{
@@ -115,6 +115,7 @@ i{
 
 
 #footer {
+  width: 100vw;
   font-size: 15px;
   line-height: 2em;
   background: linear-gradient(dimgray 10%, lightgray 100%);
@@ -137,5 +138,10 @@ i{
 @media (max-width: 800px) {
   body {
     font-size: 5vw;
+  }
+
+  .box{
+    gap: 1em;
+    flex-direction: column;
   }
 }
